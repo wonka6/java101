@@ -17,7 +17,9 @@ public class Pratik2kdv {
 
         //basic vat calculation
         money += money * vat;
-
+		
+		System.out.println("The principal amount is: " + money); 
+		System.out.println("The vat value is: " + vat);
         System.out.print("The vat included amount: " + money);
 
 
