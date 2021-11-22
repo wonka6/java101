@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hipotenus {
+public class areaCal {
     public static void main(String[] args) {
         int a, b, c;
         double area, p;
