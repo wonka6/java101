@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pratik2kdv {
+public class VatCalculate {
     public static void main(String[] args) {
         //Variable
         double money, vat;
