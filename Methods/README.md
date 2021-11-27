@@ -1,2 +1,2 @@
-# java101
-There is a bunch of great projects in this repo.
+# Methods
+This directory contains projects on more advanced topics.
