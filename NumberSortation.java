@@ -16,22 +16,22 @@ public class NumberSortation {
         System.out.print("c = ");
         c = input.nextInt();
 
-        if ( a < b && a < c){
-            if(b < c){
+        if (a < b && a < c) {
+            if (b < c) {
                 System.out.println("Increasing order is: " + a + b + c);
-            }else{
+            } else {
                 System.out.println("Increasing order is: " + a + c + b);
             }
-        }else if (c < b && c < a){
-            if(a < b){
+        } else if (c < b && c < a) {
+            if (a < b) {
                 System.out.println("Increasing order is: " + c + a + b);
-            }else{
+            } else {
                 System.out.println("Increasing order is: " + c + b + a);
             }
-        }else if (b < c && b < a){
-            if(a < c){
+        } else if (b < c && b < a) {
+            if (a < c) {
                 System.out.println("Increasing order is: " + b + a + c);
-            }else{
+            } else {
                 System.out.println("Increasing order is: " + b + c + a);
             }
         }
