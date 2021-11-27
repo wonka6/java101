@@ -13,19 +13,19 @@ public class UserLogin {
         System.out.printf("Password: ");
         password = input.nextLine();
 
-        if(userName.equals("patika") && (password.equals("java123"))){
+        if (userName.equals("patika") && (password.equals("java123"))) {
             System.out.println("Signed in");
         } else {
             System.out.println("Wrong username or password.");
             System.out.println("Do you want to create new password:y or n");
             newChoice = input.nextLine();
-            if ( newChoice.equals("y")){
+            if (newChoice.equals("y")) {
                 System.out.printf("New Password: ");
                 newPassword = input.nextLine();
-                if(newPassword.equals("java123")){
+                if (newPassword.equals("java123")) {
                     System.out.println("The new password should be different from the old password.");
                     System.out.println("New password could not be created.");
-                }else {
+                } else {
                     System.out.println("New password created successfully.");
                 }
             }
