@@ -1,2 +1,2 @@
 #ARRAYS
-You can find array examples that writtten in java.
+You can find array examples that written in java.
