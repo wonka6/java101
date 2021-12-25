@@ -19,7 +19,7 @@ public class RepeatedNumbers {
 
 
     public static void main(String[] args) {
-        int[] list = {1, 1, 2, 3, 4, 5, 6, 4, 7, 2, 3, 89, 56, 75, 159, 89};
+        int[] list = {1, 1, 2, 3, 4, 5, 6, 4, 2, 2, 4, 3, 5, 2, 4, 6, 6, 6, 8, 8, 8, 8};
 
         int[] newList = new int[list.length];
         int newIndex = 0;
