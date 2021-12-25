@@ -1,10 +1,6 @@
 package java101.Arrays;
 
 public class StarPattern {
-<<<<<<< HEAD
-
-}
-=======
     public static void main(String[] args) {
 
 
@@ -34,4 +30,3 @@ public class StarPattern {
 
     }
 }
->>>>>>> 622886503ffb470275d50e9fe1ffe3cfe3051be8
